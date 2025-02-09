@@ -10,7 +10,7 @@ export default defineConfig({
     }
   },
   build: {
-    minify: 'terser',  // Use terser for minification
-    assetsInlineLimit: 4096,  // Inline assets less than 4kb
+    minify: 'terser',  
+    assetsInlineLimit: 4096,  
   }
 })

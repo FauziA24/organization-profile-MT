@@ -1,12 +1,12 @@
 export default function Contact() {
   return (
-    <div className="space-y-6">
+    <div className="space-y-12 px-6 md:px-12 lg:px-24 py-16">
       <h1 className="text-4xl font-bold">Contact Us</h1>
       <p className="text-xl">
         Get in touch with us for any inquiries or support.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
+        <div className="align-center">
           <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
           <p>Email: info@company.com</p>
           <p>Phone: +1 (123) 456-7890</p>

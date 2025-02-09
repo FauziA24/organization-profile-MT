@@ -18,7 +18,7 @@ export default function Events() {
   ];
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-12 px-6 md:px-12 lg:px-24 py-16">
       <h1 className="text-4xl font-bold">Events</h1>
       <p className="text-xl">Join us at our upcoming events and conferences.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

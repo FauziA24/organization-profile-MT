@@ -21,7 +21,7 @@ export default function Articles() {
   ];
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-12 px-6 md:px-12 lg:px-24 py-16">
       <h1 className="text-4xl font-bold">Articles</h1>
       <p className="text-xl">
         Stay updated with our latest insights and industry news.
